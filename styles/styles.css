@@ -3,17 +3,17 @@ nav {
     padding: 10px;
 }
 
-nav {
+nav a{
     color: white;
     display: block;
-    padding: 20px;
+    padding: 5px;
 }
 
 main {
-    width: 70.3%;
-    margin: 0px;
-    border: 0px;
-    padding: 0px;
+    max-width: 795px;
+    margin: 1rem;
+    border: 1px solid rgba (0, 0, 0, 0.2); /* 1️⃣ */
+    padding: 1rem;
     background-color: cornsilk;
     color:cornsilk;
     float: left;
@@ -23,38 +23,55 @@ h1 {
     color: steelblue;
 }
 
-section {
-    background-color: steelblue;
-    padding-top: 10px;
-    padding-bottom: 10px;
-}
-
-
-aside {
-    width: min-content;
-    padding: 5px;
-    float: right;
-    font-style: italic;
-    background-color: lightgray;
-    text-align: center;
-  }
-
-h2 {
-    color: black;
-    text-align: center;
-}
-
-img {
-    width: min-content,max-content;
+main img {
+    width: 214px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
 }
 
-p {
+section {
+    background-color: steelblue;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+
+aside {
+    width: 20rem;
+    margin: 1rem;
+    border: 1px solid rgba (0, 0, 0, 0.2); /* 1️⃣ */
+    padding: 1rem;
+    background-color: lightgray;
+    float: right;
+    font-style: italic;
+    text-align: center;
+  }
+
+aside h2 {
+    color: black;
+}
+
+aside img {
+    width: 300px;
+    height: auto;
+    border: 1px solid steelblue;
+    padding: 2px;
+    box-shadow: 0 0 30px gray;
+}
+
+aside section {
     width: auto;
-    display: block;
-    float: left;
-    align-content: center;
+    background-color: lightgray;
+}
+
+footer {
+    margin-top: 37.3em;
+    border-top: 1px solid #000;
+    padding-top: 0.5px;
+    text-align: center;
+    background-color: white;
 }
