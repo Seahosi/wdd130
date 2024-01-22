@@ -12,7 +12,7 @@ nav a{
 main {
     max-width: 795px;
     margin: 1rem;
-    border: 1px solid rgba (0, 0, 0, 0.2); /* 1️⃣ */
+    border: 1px solid lightgrey;
     padding: 1rem;
     background-color: cornsilk;
     color:cornsilk;
@@ -24,7 +24,7 @@ h1 {
 }
 
 main img {
-    width: 210px;
+    width: 208px;
     height: auto;
     border: 1px solid steelblue;
     padding: 2px;
