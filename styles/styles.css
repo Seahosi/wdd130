@@ -43,7 +43,7 @@ main div {
 aside {
     width: 20rem;
     margin: 1rem;
-    border: 1px solid rgba (0, 0, 0, 0.2); /* 1️⃣ */
+    border: 1px solid cornsilk;
     padding: 1rem;
     background-color: lightgray;
     float: right;
