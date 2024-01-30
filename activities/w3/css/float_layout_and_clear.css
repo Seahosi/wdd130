@@ -22,5 +22,5 @@ footer {
 	/***** 
    Remove the comment below on the declaration to see the clearing the float fix result with the footer.
   ****/  
-  /* clear: both; */
+  clear: both;
 }
